@@ -3,7 +3,7 @@ import * as styles from "../styles/components/Entry.module.css";
 import { useStaticQuery, graphql } from "gatsby";
 import IconGit from '../images/icon-git.svg';
 import IconIn from '../images/icon-in.svg';
-import downloadResume from '../static/Daniil_Koziura_cv.pdf'; 
+import downloadResume from '../static/Daniil_Koziura_Resume_Full_Stack.pdf'; 
 
 export default function Entry() {
 
