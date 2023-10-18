@@ -1,0 +1,72 @@
+[
+
+    {
+        "workTitle": "Sigma Software",
+        "tag": "@SigmaSoftwareGroup",
+        "link": "https://sigma.software/",
+        "role": "Full Stack Engineer",
+        "years": "2020 - 2023",
+        "duties": [
+            {
+                "description": "Successfully transitioned the outdated PHP-based frontend to a modern and efficient Next.js-based solution.",
+                "achievements": [
+                    "Developed reusable React components.",
+                    "Implemented custom decorators.",
+                    "Developed a context provider to facilitate seamless data sharing among components.",
+                    "Executed an optimization with Redis cache functionality.",
+                    "Implemented a Continuous Delivery strategy to ensure successful test execution and streamlined build deployments."
+                ]
+            },
+            {
+                "description": "Implemented a B2B CRM system, enhancing customer service for account managers and improving partner membership status clarity.",
+                "achievements": [
+                    "Designed new and refactored existing React components.",
+                    "Implemented new key features in Nest-based (Node.js) API.",
+                    "Developed integration with Slack push-notifications.",
+                    "Enhanced application robustness through refactoring.",
+                    "Delivered AWS CloudFormation infrastructure and resources to ensure the successful utilization of the application."
+                ]
+            },
+            {
+                "description": "Played a significant role in a large, high-load, complex legacy PHP-based application.",
+                "achievements": [
+                    "Provided Yii-based (PHP) features that significantly enhanced usage performance.",
+                    "Extensively utilized various AWS tools, including SNS, Dead Letter Queue, S3, EC2, RDS, Lambda, Cloud Watch, and more."
+                ]
+            }
+        ]
+        
+    },
+    {
+        "workTitle": "Altexsoft",
+        "tag": "@Altexsoft",
+        "link": "https://www.altexsoft.com/",
+        "role": "PHP/Full Stack Developer",
+        "years": "2018 - 2020",
+        "duties": [
+            {
+                "description": "Achieved the successful integration of a CRM system, leveraging Laravel and Vue.js, within a substantial E-commerce software environment.",
+                "achievements": [
+                    "Implemented the Vuex state manager for a multi-staging order functionality .",
+                    "Collaborated closely with PostgreSQL to enhance full-text search functionality.",
+                    "Delivered high-level support and assistance for bug fixing."
+                ]
+            },
+            {
+                "description": "Provided website maintenance services.",
+                "achievements": [
+                    "As a PHP developer, I successfully delivered backend features and provided bug-fixing support for various small-scale web pages.",
+                    "I initiated direct communication with clients and enhancing my communication skills and time management."
+                ]
+            },
+            {
+                "description": "Successfully contributed to and gained valuable hands-on experience in my initial commercial project.",
+                "achievements": [
+                    "Containerized the web app's frontend, backend, server, and databases using Docker to enhance deployment efficiency and facilitate local usage.",
+                    "Conducted bug-fixing and provided ongoing support.",
+                    "Attained my initial experience of collaborating in a cross-functional team and working within an Agile development framework."
+                ]
+            }
+        ]
+    }
+]

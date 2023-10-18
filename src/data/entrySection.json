@@ -1,0 +1,22 @@
+[
+    {
+        "entry": "Hello, I am",
+        "fullName": "Daniil Koziura",
+        "roles": [
+            "Full Stack developer",
+            "Web Application Developer",
+            "UI/UX Engineer",
+            "Backend Developer",
+            "Software Consultant"
+        ],
+        "descriptions": [
+            "I have more than 5 years of commercial experience in media, SaaS, and E-commerce I gained my experience from delivery of different kinds of web applications.",
+            "I have a strong track record in building  APIs, creating seamless cross-browser interfaces, and implementing AWS-based solutions.",
+            "I'm known for my problem-solving abilities, teamwork, time management and priority-oriented principles."
+        ],
+        "socialLinks": {
+            "linkedin": "https://www.linkedin.com/in/daniil-koziura",
+            "github": "https://github.com/daniilkoziura"
+        }
+    }
+]

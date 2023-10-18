@@ -1,0 +1,97 @@
+
+.contact-container {
+    @apply
+    pt-60
+    w-10/12
+    md:pt-96
+    md:w-9/12
+}
+
+.contact-header {
+    @apply
+    justify-self-start
+    flex
+    flex-row
+}
+
+.contact-title{
+    @apply
+    text-4xl
+    md:text-5xl
+    font-semibold
+    self-end
+    pb-4
+}
+
+.decorative-line {
+    @apply
+    block
+    border
+    border-goldAccent
+    h-px
+    self-center
+    ml-4
+    mr-4
+    w-full
+}
+
+.contact-content {
+    @apply
+    m-auto
+}
+
+.contact-content > h1 {
+    @apply
+    flex
+    justify-center
+    text-4xl
+    md:text-5xl
+    font-semibold
+    pt-4
+    pb-6
+}
+
+.contact-content > p {
+    @apply
+    m-auto
+    text-left
+    p-4
+    text-coolGray
+    w-8/12
+}
+
+.email-btn {
+    @apply
+    flex
+    justify-center
+    text-goldAccent 
+    text-center
+    rounded-md
+    border
+    border-goldAccent
+    p-4
+    m-auto
+    mb-8
+    mt-8
+    w-48
+}
+
+.email-btn:hover {
+    @apply
+    flex
+    justify-center
+    text-offWhite 
+    text-center
+    rounded-md
+    border
+    border-charcoalGray
+    p-4
+    m-auto
+    mb-8
+    mt-8
+    w-48
+    bg-goldAccent
+    transition 
+    ease-in-out 
+    duration-500
+}

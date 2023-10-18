@@ -1,0 +1,139 @@
+
+
+.hello-entry {
+    @apply
+    pl-6
+    md:pl-0
+    text-goldAccent
+}
+
+.entryContainer {
+    @apply
+    flex
+    flex-col
+    w-11/12
+    md:w-max
+}
+
+.full-name {
+    @apply
+    text-5xl
+    md:text-7xl
+    font-semibold
+    p-6
+}
+
+.role-title {
+    @apply
+    text-2xl
+    md:text-5xl
+    text-coolGray
+    pl-6
+    pb-4
+    md:pl-24
+    pr-2
+}
+
+.role-title-animated {
+    @apply
+    text-2xl
+    md:text-5xl
+    text-coolGray
+    pb-4
+}
+
+.role-animation {
+    animation: 3s identifier ease-in-out;	
+}
+
+.role-container {
+    @apply
+    flex-row
+    text-xl
+    justify-around
+}
+
+@keyframes identifier {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0,8;
+  }
+  50% {
+    opacity: 0,6;
+  }
+  75% {
+    opacity: 0,3;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
+
+.article-paragraph {
+    @apply
+    text-coolGray
+    pl-6
+    pt-6
+    max-w-3xl
+}
+
+.entry-link-container {
+  @apply
+  flex
+  flex-row
+  items-center 
+  justify-start
+
+}
+
+.download-link {
+   @apply
+   text-goldAccent 
+   text-center
+   rounded-md
+   border
+   border-goldAccent
+   p-4
+   m-8
+   w-48
+}
+
+.download-link:hover {
+  @apply
+  text-offWhite 
+  text-center
+  rounded-md
+  border
+  border-charcoalGray
+  p-4
+  m-8
+  w-48
+  bg-goldAccent
+  transition 
+  ease-in-out 
+  duration-500
+}
+
+.github-link {
+  @apply
+  pr-2
+}
+
+.linkedinLink {
+  @apply
+  pl-4
+}
+
+
+.icon-style {
+  filter: invert(75%) sepia(82%) saturate(1218%) hue-rotate(360deg) brightness(105%) contrast(105%);
+}
+
+.icon-style:hover {
+    filter: invert(75%) sepia(82%) saturate(1218%) hue-rotate(360deg) brightness(105%) contrast(105%);
+    transform: scale(1.2);
+}
+

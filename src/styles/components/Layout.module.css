@@ -1,0 +1,11 @@
+.main-layout {
+    @apply
+    max-w-5xl
+    m-auto
+    flex
+    flex-col 
+    items-center 
+    justify-center
+    pt-20
+
+}

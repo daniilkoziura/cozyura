@@ -1,0 +1,39 @@
+[
+    {
+        "type": "Feature Project",
+        "title": "Viaplay",
+        "description": "Viaplay is a subscription-driven streaming  platform providing a diverse array of on-demand content, encompassing movies, TV series, sports, and various entertainment programs.",
+        "link": "https://viaplay.com/ca-en/",
+        "label": "viaplay.com",
+        "avatar": "../images/ViaplayProject.png",
+        "tools": [ "TypeScript", "React.js", "Next.js", "Nest.js", "Material-UI", "Tailwind CSS", "PHP", "Yii"]
+    },
+    {
+        "type": "Feature Project",
+        "title": "Threadbird",
+        "description": "E-commerce store offering end-to-end apparel and merchandise solutions, from design and production to e-commerce fulfillment for brands and businesses.",
+        "link": "https://threadbird.com/",
+        "label": "threadbird.com",
+        "avatar": "../images/ThreadbirdProject.png",
+        "tools": [ "JavaScript", "Vue.js", "PHP", "Laravel"]
+    },
+    {
+        "type": "Feature Project",
+        "title": "Mouseplanner",
+        "description": "A Software as a Service (SaaS) platform designed to create tailored Disneyland excursion schedules based on user-provided input and  Disney park availability.",
+        "link": "https://mouseplanner.com/",
+        "label": "mouseplanner.com",
+        "avatar": "../images/MouseplannerProject.png",
+        "tools": [ "JavaScript", "Angular 1", "PHP", "Laravel"]
+    },
+    {
+        "type": "Feature Project",
+        "title": "Valuebuilder",
+        "description": "Valuebuilder is meticulously designed software for business advisors, managers, and accountants who deliver customized Sales and marketing solutions.",
+        "link": "https://valuebuilder.com",
+        "label": "valuebuilder.com",
+        "avatar": "../images/ValueBuilderProject.png",
+        "tools": [ "JavaScript", "Angular 1", "PHP", "Symphony"]
+    }
+
+]

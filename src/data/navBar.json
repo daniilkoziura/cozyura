@@ -1,0 +1,18 @@
+[
+    {
+        "link": "#Profile",
+        "value": "Profile"
+    },
+    {
+        "link": "#Experience",
+        "value": "Experience"
+    },
+    {
+        "link": "#Portfolio",
+        "value": "Portfolio"
+    },
+    {
+        "link": "#Contact",
+        "value": "Contact"
+    }
+]

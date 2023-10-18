@@ -1,0 +1,11 @@
+
+.footer-container {
+    @apply
+    flex
+    justify-center
+    text-center
+    pt-36
+    w-9/12
+    text-coolGray
+    font-extralight
+}

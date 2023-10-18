@@ -1,0 +1,194 @@
+
+.portfolio-container {
+    @apply
+    pt-60
+    w-10/12
+    md:pt-96
+    md:w-9/12
+}
+
+.portfolio-header {
+    @apply
+    justify-self-start
+    flex
+    flex-row
+}
+
+.portfolio-title{
+    @apply
+    text-4xl
+    md:text-5xl
+    font-semibold
+    self-end
+    pb-4
+}
+
+.decorative-line {
+    @apply
+    block
+    border
+    border-goldAccent
+    h-px
+    self-center
+    ml-4
+    w-full
+}
+
+.portfolio-card {
+    @apply
+    flex
+    flex-col
+    md:flex-row
+    place-items-center
+    mt-4
+}
+
+.portfolio-image {
+    @apply
+    /* w-5/12 */
+    rounded-xl
+    sepia-[.50]
+    grayscale-0
+}
+
+.portfolio-image:hover {
+    @apply
+    /* w-5/12 */
+    rounded-xl
+    filter-none
+}
+
+.portfolio-article {
+    @apply
+    pl-4
+}
+
+.portfolio-type {
+    @apply
+    flex
+    text-goldAccent
+    font-light
+    justify-center
+    pt-2
+}
+
+.project-title {
+    @apply
+    flex
+    justify-center
+    pt-2
+}
+
+.project-description {
+    @apply
+    flex
+    justify-center
+    text-center
+    text-coolGray
+    pt-2
+    max-w-md
+}
+
+.tools-list {
+    @apply
+    grid
+    justify-center
+    text-center
+    text-goldAccent
+    font-light
+    text-sm
+    pt-6
+    md:pt-2
+    grid-cols-4 
+}
+
+.tool {
+    @apply
+    pb-2
+    pl-2
+}
+
+.project-link {
+    @apply
+    flex
+    justify-end
+    pt-4
+}
+
+.icon-link {
+    @apply
+    flex
+    justify-end
+    pt-4
+}
+
+.line-separator {
+    @apply
+    flex
+    border
+    border-goldAccent
+    align-middle
+    justify-center
+    self-center
+    mt-12
+    mb-12
+    m-auto
+    w-6/12
+}
+
+.empty-space {
+    @apply
+    flex
+    align-middle
+    justify-center
+    self-center
+    mt-12
+    mb-12
+    m-auto
+    w-6/12
+}
+
+.icon-style {
+    filter: invert(75%) sepia(82%) saturate(1218%) hue-rotate(360deg) brightness(105%) contrast(105%);
+    padding-left: 4px;
+}
+  
+.icon-style:hover {
+    padding-left: 4px;
+    filter: invert(75%) sepia(82%) saturate(1218%) hue-rotate(360deg) brightness(105%) contrast(105%);
+    transform: scale(1.2);
+}
+
+.show-btn {
+    @apply
+    flex
+    justify-center
+    text-goldAccent 
+    text-center
+    rounded-md
+    border
+    border-goldAccent
+    p-4
+    m-auto
+    mb-4
+    w-48
+}
+
+.show-btn:hover {
+    @apply
+    flex
+    justify-center
+    text-offWhite 
+    text-center
+    rounded-md
+    border
+    border-charcoalGray
+    p-4
+    m-auto
+    mb-4
+    w-48
+    bg-goldAccent
+    transition 
+    ease-in-out 
+    duration-500
+}

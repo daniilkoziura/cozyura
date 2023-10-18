@@ -1,0 +1,120 @@
+
+.profile-container {
+    @apply
+    pt-60
+    w-10/12
+    md:pt-96
+    md:w-9/12
+}
+
+.profileContentContainer {
+    @apply
+    flex
+    flex-col
+    md:flex-row
+}
+
+.profile-header {
+    @apply
+    justify-self-start
+    flex
+    flex-row
+}
+
+.profile-title{
+    @apply
+    text-4xl
+    pl-4
+    md:pl-0
+    md:text-5xl
+    font-semibold
+    self-end
+    pb-4
+}
+
+.profile-article {
+    @apply
+    text-coolGray
+    p-2
+    md:p-0
+    md:w-7/12
+}
+
+.profile-article > p {
+    @apply
+    pt-4
+    pl-2
+    md:pl-0
+}
+
+.profile-article > h4 {
+    @apply
+    pt-4
+    pl-2
+    md:pl-0
+}
+
+.tech-list-container {
+    @apply
+    flex
+    flex-row
+    pb-4
+    pt-4
+    md:pb-0
+    pl-2
+    md:pl-0
+}
+
+.decorative-line {
+    @apply
+    block
+    border
+    border-goldAccent
+    h-px
+    self-center
+    ml-4
+    w-full
+}
+
+.tech-list > li::before {
+    @apply
+    content-['■']
+    text-goldAccent
+    pr-2
+}
+
+.profile-image {
+    @apply
+    flex
+    self-center
+    w-9/12
+    md:mr-4
+    md:w-5/12
+    rounded-xl
+    sepia-[.50]
+    grayscale-0
+}
+
+.profile-image:hover {
+    @apply
+    flex
+    self-center
+    w-9/12
+    md:w-5/12
+    md:mr-4
+    rounded-xl
+    filter-none
+}
+
+.mobile-decorative-line {
+    @apply
+    md:hidden
+    mt-10
+    w-4/6
+    flex
+    self-center
+    border
+    border-goldAccent
+
+}
+
