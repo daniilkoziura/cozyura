@@ -1,39 +1,54 @@
 [
     {
         "type": "Feature Project",
-        "title": "Viaplay",
-        "description": "Viaplay is a subscription-driven streaming  platform providing a diverse array of on-demand content, encompassing movies, TV series, sports, and various entertainment programs.",
-        "link": "https://viaplay.com/ca-en/",
-        "label": "viaplay.com",
-        "avatar": "../images/ViaplayProject.png",
+        "title": "",
+        "description": "Subscription-driven streaming  platform providing a diverse array of on-demand content, encompassing movies, TV series, sports, and various entertainment programs.",
+        "restricted": {
+            "status": true,
+            "reason": "I regret to inform you that due to terms and conditions, I am unable to disclose any further details about this project."
+        },
+        "link": "",
+        "label": "featureProject",
+        "avatar": "../images/FeatureProject.png",
         "tools": [ "TypeScript", "React.js", "Next.js", "Nest.js", "Material-UI", "Tailwind CSS", "PHP", "Yii"]
     },
     {
         "type": "Feature Project",
-        "title": "Threadbird",
+        "title": "",
         "description": "E-commerce store offering end-to-end apparel and merchandise solutions, from design and production to e-commerce fulfillment for brands and businesses.",
-        "link": "https://threadbird.com/",
-        "label": "threadbird.com",
-        "avatar": "../images/ThreadbirdProject.png",
+        "restricted": {
+            "status": true,
+            "reason": "I regret to inform you that due to terms and conditions, I am unable to disclose any further details about this project."
+        },
+        "link": "",
+        "label": "featureProject1",
+        "avatar": "../images/FeatureProject1.png",
         "tools": [ "JavaScript", "Vue.js", "PHP", "Laravel"]
     },
     {
         "type": "Feature Project",
-        "title": "Mouseplanner",
+        "title": "",
         "description": "A Software as a Service (SaaS) platform designed to create tailored Disneyland excursion schedules based on user-provided input and  Disney park availability.",
-        "link": "https://mouseplanner.com/",
-        "label": "mouseplanner.com",
-        "avatar": "../images/MouseplannerProject.png",
+        "restricted": {
+            "status": true,
+            "reason": "I regret to inform you that due to terms and conditions, I am unable to disclose any further details about this project."
+        },
+        "link": "",
+        "label": "featureProject2",
+        "avatar": "../images/FeatureProject2.png",
         "tools": [ "JavaScript", "Angular 1", "PHP", "Laravel"]
     },
     {
         "type": "Feature Project",
-        "title": "Valuebuilder",
-        "description": "Valuebuilder is meticulously designed software for business advisors, managers, and accountants who deliver customized Sales and marketing solutions.",
-        "link": "https://valuebuilder.com",
-        "label": "valuebuilder.com",
-        "avatar": "../images/ValueBuilderProject.png",
+        "title": "",
+        "description": "This project is meticulously designed software for business advisors, managers, and accountants who deliver customized Sales and marketing solutions.",
+        "restricted": {
+            "status": true,
+            "reason": "I regret to inform you that due to terms and conditions, I am unable to disclose any further details about this project."
+        },
+        "link": "",
+        "label": "featureProject3",
+        "avatar": "../images/FeatureProject3.png",
         "tools": [ "JavaScript", "Angular 1", "PHP", "Symphony"]
     }
-
 ]

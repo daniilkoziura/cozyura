@@ -2,6 +2,7 @@ import * as React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import Linking from '../images/icon-linking.svg';
+import Restricted from "./Restricted";
 
 import * as styles from "../styles/components/Portfolio.module.css";
 
@@ -19,6 +20,10 @@ export default function Projects() {
                   link
                   label
                   description
+                  restricted {
+                    status
+                    reason
+                  }
                   tools
                   avatar {
                     childImageSharp {
@@ -38,6 +43,8 @@ export default function Projects() {
       let [activeProjects, setActiveProjects] = React.useState(projectData)
       let [isShowLessActive, setShowLessActive] = React.useState(false)
       let [isShowMoreActive, setShowMoreActive] = React.useState(true)
+      let [showRestrictedReason, setShowRestrictedReason] = React.useState(false)
+      let [restrictedReason, setRestrictedReason] = React.useState('')
 
       const storageLength = storage.length;
       const activeProjectsLength = activeProjects.length;
@@ -77,12 +84,34 @@ export default function Projects() {
         setShowMoreActive(true)
       }
 
+      const checkRestrictions = (e, id) => {
+        
+        storage.map(project => {
+          if (project.node.id === id) {
+            const restrictedStatus = project.node.restricted.status
+            const reason = project.node.restricted.reason
+
+            if(restrictedStatus) {
+              e.preventDefault()
+              setShowRestrictedReason(true)
+              setRestrictedReason(reason)
+            }   
+          }
+        })
+      }
+
+      const clearRestrictions = () => {
+        setShowRestrictedReason(false) 
+        setRestrictedReason('')
+      }
+
     return (
         <div className={styles.portfolioContainer}>
             <div id="Portfolio" className={styles.portfolioHeader}>
                 <h1 className={styles.portfolioTitle}>Portfolio</h1>
                 <i className={styles.decorativeLine}></i>
             </div>
+            {showRestrictedReason && (<Restricted reason={restrictedReason} close={() => clearRestrictions()}/>)}
             {activeProjects.map((project, i) => (
                 <div key={i}>
                     <div className={styles.portfolioCard}>
@@ -92,6 +121,7 @@ export default function Projects() {
                     href={project.node.link} 
                     rel="noreferrer" 
                     target="_blank" 
+                    onClick={(e) => checkRestrictions(e, project.node.id)}
                     aria-label={`${project.node.label}-image-label`}>
                             <GatsbyImage
                                 className={styles.portfolioImage}
@@ -108,11 +138,11 @@ export default function Projects() {
                                            <li key={i} className={styles.tool}>{tool}</li>
                                 ))}
                             </ul>
-                        <a className={styles.iconLink} key={project.node.label} href={project.node.link} rel="noreferrer" target="_blank" aria-label={`${project.node.label}-label`}><Linking className={styles.iconStyle}/></a>
+                        <a onClick={(e) => checkRestrictions(e, project.node.id)} className={styles.iconLink} key={project.node.label} href={project.node.link} rel="noreferrer" target="_blank" aria-label={`${project.node.label}-label`}><Linking className={styles.iconStyle}/></a>
                         </article>
                     </div>
                     <i className={ i + 1 !== activeProjectsLength ? styles.lineSeparator : styles.emptySpace }></i>
-                </div>  
+                </div>
             ))}
             {isShowMoreActive && (<button className={styles.showBtn} onClick={(e) => showMore(e)}>Show more</button>)}
             {isShowLessActive && (<button className={styles.showBtn} onClick={(e) => showLess(e)}>Show less</button>)} 

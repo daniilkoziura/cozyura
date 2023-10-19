@@ -1,0 +1,117 @@
+.restricted-window {
+    @apply
+    relative 
+    z-10
+}
+
+.blur-bg {
+    @apply
+    fixed 
+    inset-0 
+    bg-charcoalGray 
+    bg-opacity-75
+}
+
+.restricted-blured-container {
+    @apply
+    fixed 
+    inset-0 
+    z-10 
+    w-screen 
+    overflow-y-auto
+}
+
+.restricted-blured-sub-container {
+    @apply
+    flex 
+    min-h-full 
+    items-end 
+    justify-center 
+    p-4 
+    text-center 
+    md:items-center 
+    md:p-0
+}
+
+.restricted-relative-container {
+    @apply
+    relative 
+    transform 
+    overflow-hidden 
+    rounded-lg 
+    text-left 
+    shadow-xl 
+    transition-all 
+    md:my-8 
+    md:w-full
+    md:max-w-lg
+}
+
+.restricted-relative-sub-container {
+    @apply
+    bg-charcoalGray 
+    px-4 
+    pb-4 
+    pt-5 
+    md:p-6 
+    md:pb-4
+}
+
+
+
+.close-btn {
+    @apply
+    cursor-pointer
+    text-goldAccent 
+    text-center
+    border
+    border-goldAccent
+    inline-flex 
+    w-full 
+    justify-center 
+    rounded-md 
+    p-4
+    m-auto
+    mb-4
+    px-3 
+    py-2 
+    text-sm 
+    font-semibold 
+    shadow-sm 
+    md:w-6/12
+}
+
+.close-btn:hover {
+    @apply
+    cursor-pointer
+    inline-flex 
+    justify-center
+    text-offWhite 
+    text-center
+    rounded-md
+    border
+    border-charcoalGray
+    p-4
+    m-auto
+    mb-4
+    px-3 
+    py-2 
+    w-full
+    md:w-6/12
+    bg-goldAccent
+    transition 
+    ease-in-out 
+    duration-500
+    text-sm 
+    font-semibold 
+    shadow-sm 
+}
+
+.modal-actions {
+    @apply
+    px-4 
+    py-3 
+    md:flex 
+    md:flex-row-reverse 
+    md:px-6
+}
