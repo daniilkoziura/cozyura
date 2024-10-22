@@ -1,6 +1,6 @@
 [
     {
-        "head": "With 5+ years of hands-on commercial experience, I possess a deep understanding of the software development lifecycle, from requirements to production, including testing and application support.",
+        "head": "With 7 years of hands-on commercial experience, I possess a deep understanding of the software development lifecycle, from requirements to production, including testing and application support.",
         "middle": "I thrive in collaborative, cross-functional teams, where I can harness my problem-solving skills and creativity to craft solutions that not only meet but exceed our clients' expectations.",
         "bottom": "This dedication to client satisfaction serves as the primary source of motivation that drives me in my daily work.",
         "technologiesTile": "Main technologies I've been working with:",
@@ -13,6 +13,7 @@
             "PHP, Yii, Laravel",
             "PostgresSQL, MySQL",
             "AWS, CloudFormation",
+            "Kafka, MongoDB",
             "Redis, memcache",
             "Docker, Github"
         ]

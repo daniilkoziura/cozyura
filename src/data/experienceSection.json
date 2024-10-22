@@ -1,5 +1,39 @@
 [
-
+    {
+        "workTitle": "Alata",
+        "tag": "@Alata",
+        "link": "https://alatafleet.com/",
+        "role": "Senior Full Stack Developer",
+        "years": "2023 - Current",
+        "duties": [
+            {
+                "description": "Implemented cross-adaptive data collection to enable third-party payment-based functionality.",
+                "achievements": [
+                    "Developed adapters to transform business logic data between internal applications.",
+                    "Provided a queue-based solution to handle multiple parallel batch processes, allowing real-time computation of large data sets."
+                ]
+            },
+            {
+                "description": "Worked with Kafka broker for messaging.",
+                "achievements": [
+                    "Designed and implemented app-to-app communication using a message-oriented approach.",
+                    "Contributed to the implementation of a core functionality, creating listeners and consumers for efficient data exchange between different applications."
+                ]
+            },
+            {
+                "description": "Introduced a command-based approach to accelerate MongoDB restoration and manipulation, replacing manual methods.",
+                "achievements": [
+                    "Defined and integrated a streamlined approach for MongoDB manipulation and restoration across environments, resulting in a 10x faster database management process."
+                ]
+            },
+            {
+                "description": "Led long-term feature development, improving user satisfaction.",
+                "achievements": [
+                    "Played a key role in the implementation of core features, resulting in increased user satisfaction and usability."
+                ]
+            }
+        ]
+    },
     {
         "workTitle": "Sigma Software",
         "tag": "@SigmaSoftwareGroup",
@@ -31,11 +65,10 @@
                 "description": "Played a significant role in a large, high-load, complex legacy PHP-based application.",
                 "achievements": [
                     "Provided Yii-based (PHP) features that significantly enhanced usage performance.",
-                    "Extensively utilized various AWS tools, including SNS, Dead Letter Queue, S3, EC2, RDS, Lambda, Cloud Watch, and more."
+                    "Extensively utilized various AWS tools, including SNS, Dead Letter Queue, S3, EC2, RDS, Lambda, CloudWatch, and more."
                 ]
             }
         ]
-        
     },
     {
         "workTitle": "Altexsoft",
@@ -47,7 +80,7 @@
             {
                 "description": "Achieved the successful integration of a CRM system, leveraging Laravel and Vue.js, within a substantial E-commerce software environment.",
                 "achievements": [
-                    "Implemented the Vuex state manager for a multi-staging order functionality .",
+                    "Implemented the Vuex state manager for a multi-staging order functionality.",
                     "Collaborated closely with PostgreSQL to enhance full-text search functionality.",
                     "Delivered high-level support and assistance for bug fixing."
                 ]
@@ -56,7 +89,7 @@
                 "description": "Provided website maintenance services.",
                 "achievements": [
                     "As a PHP developer, I successfully delivered backend features and provided bug-fixing support for various small-scale web pages.",
-                    "I initiated direct communication with clients and enhancing my communication skills and time management."
+                    "Initiated direct communication with clients, enhancing my communication skills and time management."
                 ]
             },
             {

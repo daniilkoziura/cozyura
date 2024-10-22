@@ -1,5 +1,18 @@
 [
     {
+        "type": "Alata",
+        "title": "Fleet Management Company",
+        "description": "Alata streamlines fleet management with real-time GPS tracking, driver monitoring, expense control, and maintenance reporting.",
+        "restricted": {
+            "status": false,
+            "reason": "-"
+        },
+        "link": "https://alatafleet.com/products/",
+        "label": "featureProject",
+        "avatar": "../images/FeatureProject4.png",
+        "tools": [ "TypeScript", "React.js", "Next.js", "Nest.js", "Tailwind CSS", "AWS", "Kafka", "Redis"]
+    },
+    {
         "type": "Feature Project",
         "title": "",
         "description": "Subscription-driven streaming  platform providing a diverse array of on-demand content, encompassing movies, TV series, sports, and various entertainment programs.",

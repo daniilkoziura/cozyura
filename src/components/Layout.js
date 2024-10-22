@@ -8,7 +8,6 @@ export default function Layout({ children }) {
         <>
             <Header/>
                 <main className={styles.mainLayout}>{children}</main>
-            {/* <footer> Designed and build by Daniil Koziura </footer> */}
         </>
     )
 }
